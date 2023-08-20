@@ -49,7 +49,6 @@
   gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32|UINT32|0x0000a403
   gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1280|UINT32|0x0000a404
   gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|720|UINT32|0x0000a405 
-  gMSM8909PkgTokenSpaceGuid.IsAndroidPlatform|TRUE|BOOLEAN|0x0000a406
   gArmPlatformTokenSpaceGuid.PcdSystemMemoryUefiRegionSize|0x08000000|UINT32|0x00000036 #0x00800000
   gArmPlatformTokenSpaceGuid.PcdCPUCorePrimaryStackSize|0x10000|UINT32|0x00000038
   gArmPlatformTokenSpaceGuid.PcdCPUCoreSecondaryStackSize|0x10000|UINT32|0x00000039
