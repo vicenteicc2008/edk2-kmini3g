@@ -40,7 +40,7 @@ STATIC VOID UartInit(VOID)
 
   SerialPortInitialize();
 
-  DEBUG((EFI_D_INFO, "\nTianoCore on MSM8909 (ARM)\n"));
+  DEBUG((EFI_D_INFO, "\nTianoCore on Samsung Galaxy S5 Mini Duos (ARM)\n"));
   DEBUG(
       (EFI_D_INFO, "Firmware version %s built %a %a\n\n",
        (CHAR16 *)PcdGetPtr(PcdFirmwareVersionString), __TIME__, __DATE__));

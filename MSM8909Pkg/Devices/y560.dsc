@@ -13,11 +13,11 @@
 
 [PcdsFixedAtBuild.common]
   # System Memory (1GB)
-  gArmTokenSpaceGuid.PcdSystemMemoryBase|0x80000000
-  gArmTokenSpaceGuid.PcdSystemMemorySize|0x40000000
+  gArmTokenSpaceGuid.PcdSystemMemoryBase|0x00000000
+  gArmTokenSpaceGuid.PcdSystemMemorySize|0x60000000
   
   # Framebuffer (480x854)
-  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|480
-  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|854
-  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|480
-  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|854
+  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1280
+  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|720
+  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1280
+  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|720

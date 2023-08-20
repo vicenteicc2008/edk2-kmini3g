@@ -157,11 +157,7 @@ FrameBufferBltConfigure (
   CopyMem (Configure->PixelShl,    PixelShl, sizeof (PixelShl));
   CopyMem (Configure->PixelShr,    PixelShr, sizeof (PixelShr));
 
-  if (PcdGetBool(IsAndroidPlatform)) {
-   Configure->BytesPerPixel     = BytesPerPixel - (BytesPerPixel / 4); // Defaults to ex. 24bpp for 32bpp and 3bpp for 4bpp usecases
-  } else {
-   Configure->BytesPerPixel     = BytesPerPixel;
-  }
+  Configure->BytesPerPixel     = BytesPerPixel;
 
   Configure->PixelFormat       = FrameBufferInfo->PixelFormat;
   Configure->FrameBuffer       = (UINT8*) FrameBuffer;
