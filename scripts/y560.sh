@@ -7,4 +7,4 @@ GCC5_ARM_PREFIX=arm-linux-gnueabi- build -j$(nproc) -s -n 0 -a ARM -t GCC5 -p MS
 ./scripts/build_bootshim.sh
 cat BootShim/BootShim.bin workspace/Build/MSM8909Pkg/DEBUG_GCC5/FV/MSM8909PKG_UEFI.fd > workspace/bootpayload.bin
 cat BootShim/BootShim.bin workspace/Build/MSM8909Pkg/DEBUG_GCC5/FV/MSM8909PKG_UEFI.fd > workspace/boot.img-zImage
-./scripts/mkbootimg --kernel=workspace/bootpayload.bin --output=workspace/Y560.img --cmdline="EDK2" --qcdt=device_specific/y560.dtb --base=0x80000000
+./scripts/mkbootimg --kernel=workspace/bootpayload.bin --output=workspace/kmini3g.img --cmdline="EDK2" --qcdt=device_specific/kmini3g.dtb --base=0x80000000
